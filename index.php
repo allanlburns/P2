@@ -1,6 +1,19 @@
 <!DOCTYPE: html>
 <html>
-<head>
-	<title><index.php></title>
-	<link type= "text/css" rel= "stylesheet" href= "stylesheet.css" 
-</head>
+	<head>
+		<link type="text/css" rel= "stylesheet" href="stylesheet.css" 
+	
+		<title><index.php></title>
+	</head>
+
+	<body>
+		<h1>Password Generator!</h1>
+
+		<p>Create your own xkcd-style password</p>
+
+
+
+
+
+	</body>
+</html>
