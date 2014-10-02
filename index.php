@@ -13,11 +13,14 @@
 
 		<p>Create your own xkcd-style password</p>
 
+
+		Your password is:
+
 		<?php 
 
-			foreach($wordlist_president as $wordone) {
+			foreach($president as $wordone) {
 
-			echo $wordone . $wordtwo; 
+			echo $wordone; 
 		}
 
 		?>
