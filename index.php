@@ -17,7 +17,11 @@
 
 		<p>Number of words></p><br>
 
-		<input type ='text' name='numberofwords'><br>
+		<input type ='number' name='numberofwords' min= '4'
+			max='8' step='1' value='4'><br>
+
+		<!--input type="number" name="age" id="age"
+                min="18" max="120" step="1" value="18"> -->
 
 		<p>Use a symbol?></p><br>
 
