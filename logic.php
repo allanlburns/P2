@@ -7,6 +7,8 @@ $worldlist = array('Jefferson', 'Lincoln', 'Taft', 'Kennedy', 'Nixon',
 
 //for($i = 0; $i < 'numberofwords'; $i++;)
 
+//$password = array()
+
 
 
 

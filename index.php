@@ -21,11 +21,11 @@
 
 		<p>Use a symbol?></p><br>
 
-		<input type ='text' name='symbol'><br>
+		<input type ='checkbox' name='symbol' value='yes'><br>
 
 		<p>Include a number?></p><br>
 
-		<input type ='text' name='number'><br>
+		<input type ='checkbox' name='number' value='yes'><br>
 
 
 		
@@ -36,15 +36,17 @@
 
 		Your password is:
 
-		<?php 
+		<?php echo $_GET['numberofwords']; ?><br>
 
-			
+		<?php if (isset($var)) {
 
-			echo $_GET['numberofwords'];
+		 echo $_GET['symbol']; }?><br>
 
-		
+		<?php if (isset($var2)) {
 
-		?>
+			echo $_GET['number']; }?><br>
+
+
 
 
 
