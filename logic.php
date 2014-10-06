@@ -6,8 +6,11 @@ $wordlist = array('Jefferson', 'Lincoln', 'Taft', 'Kennedy', 'Nixon',
 'beta', 'gamma');
 
 
+//$_POST
 
-$password = array_rand($wordlist, 8);
+//$length = 'length';
+
+$password = array_rand($wordlist, 6);
 
  //moving foreach loop to index.php eliminated password from top of page but also from anywhere on the page.
 

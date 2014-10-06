@@ -13,7 +13,7 @@
 
 		<h2>Create your own xkcd-style password</h2>
 
-		<form action='index.php' method='GET'>
+		<form action='logic.php' method='GET'>
 
 		<p>Number of words></p><br>
 
@@ -35,9 +35,9 @@
 		Your password is:
 
 		
-		<?php foreach ($password as $key => $value) {
+		<?php foreach ($password as $value) {
 
-		echo "$key" . $wordlist[$value];
+		echo $wordlist[$value];
 
 		}
 
