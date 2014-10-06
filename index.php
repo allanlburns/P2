@@ -13,7 +13,7 @@
 
 		<h2>Create your own xkcd-style password</h2>
 
-		<form action='logic.php' method='GET'>
+		<form action='index.php' method='GET'>
 
 		<p>Number of words></p><br>
 
@@ -42,7 +42,6 @@
 		}
 
 		?>
-
 
 
 
