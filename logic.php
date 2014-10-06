@@ -2,18 +2,18 @@
 
 $wordlist = array('Jefferson', 'Lincoln', 'Taft', 'Kennedy', 'Nixon', 
 'blue', 'red', 'yellow', 'green', 'black', 'white', 'purple', 'Sunday', 'Monday', 'Tuesday',
-'Wednesday', 'Thursday', 'Friday', 'Saturday', 'lamda', 'iota', 'rho', 'sigma', 'alpha',
+'Wednesday', 'Thursday', 'Friday', 'Saturday', 'lamda', 'iota', 'sigma', 'alpha',
 'beta', 'gamma');
 
 
 
-$password = array_rand ($wordlist);
+$password = array_rand($wordlist, 8);
 
-for($i=0; $i < 8; $i++) {
+foreach ($password as $key => $value) {
 
-	echo array_rand ($wordlist) . $password;
+	echo "$key - <strong>" . $wordlist[$value] . "</strong><br />";
 
-}
+} //moving foreach loop to index.php eliminated password from top of page but also from anywhere on the page.
 
 
 
