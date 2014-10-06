@@ -13,7 +13,7 @@
 
 		<h2>Create your own xkcd-style password</h2>
 
-		<form action='index.php' method='GET'>
+		<form action='logic.php' method='GET'>
 
 		<p>Number of words></p><br>
 
@@ -27,41 +27,21 @@
 
 		<p>Include a number?</p><br>
 
-		<input type ='checkbox' name='number' value='yes'><br>
+		<input type ='checkbox' name='number' value='yes'><br><br>
 		
-		<input type ='submit' value='Create your password!'>
+		<input type ='submit' value='Create your password!'><br><br>
 
 		
-		<pre><?php print_r($_GET); ?></pre>
-
 		Your password is:
 
-		<?php echo $password ?>
-
 		
+		<?php foreach ($password as $key => $value) {
 
-		foreach ($password as $key => $value) {
+		echo "$key" . $wordlist[$value];
 
-	echo "$key - <strong>" . $wordlist[$value] . "</strong><br />";
+		}
 
-}
-
-
-	<?php echo $_GET['$length']; ?>
-
-	<?php if (isset($var)) {
-
-		 	echo $_GET['symbol']; }?>
-
-		<?php if (isset($var2)) {
-
-			echo $_GET['number']; }?>
-
-
-
-
-
-
+		?>
 
 
 
