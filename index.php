@@ -41,6 +41,12 @@
 
 		}
 
+		if ($_POST['symbol'] = 'yes') {
+
+		echo array_rand($symbols);
+
+		}
+
 
 
 		?>
