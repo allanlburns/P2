@@ -47,6 +47,12 @@
 		
 		}
 
+		if ($_POST['number'] == 'yes') {
+
+		echo $number[$random_number];
+		
+		}
+
 		?>
 
 

@@ -5,7 +5,7 @@ $wordlist = array('Jefferson ', 'Lincoln ', 'Taft ', 'Kennedy ', 'Nixon ',
 'Wednesday ', 'Thursday ', 'Friday ', 'Saturday ', 'Oslo ', 'Paris ', 'Carthage ', 'MickeyMouse ', 'DonaldDuck ',
 'Goofy ');
 
-$symbols = array('!', '@', '%', '&', '*', '+', '=');
+$symbols = array('! ', '@ ', '% ', '& ', '* ', '+ ', '= ');
 
 $random_index = array_rand($symbols, 1);
 
@@ -16,18 +16,13 @@ $random_index = array_rand($symbols, 1);
 
 $number = array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9);
 
+$random_number = array_rand($number, 1);
+
 
 
 
 $password = array_rand($wordlist, $_POST['length']);
 
-
-
-/*if ($_POST['symbol'] = 'yes') {
-
-$password = array_rand($symbols);
-
-}*/
 
 
 ?>
