@@ -23,11 +23,16 @@
 		
 		<p>Use a symbol?</p>
 
-		<input type ='checkbox' name='symbol' value='yes' /><br>
+		
+		<input type='hidden' name='symbol' value='0' />
+		<input type ='checkbox' name='symbol' value='1' /><br>
+
+
 
 		<p>Include a number?</p>
 
-		<input type ='checkbox' name='number' value='yes' /><br><br>
+		<input type='hidden' name='number' value="0" />
+		<input type ='checkbox' name='number' value='1' /><br><br>
 		
 		<input type ='submit' value='Create your password!' /><br><br>
 
@@ -41,16 +46,16 @@
 
 		}
 
-		if ($_POST['symbol'] == 'yes') {
+		if ($_POST['symbol'] == '1') {
 
 		echo $symbols[$random_index];
 		
 		}
 
-		if ($_POST['number'] == 'yes') {
+		if ($_POST['number'] == '1') {
 
 		echo $number[$random_number];
-		
+
 		}
 
 		?>

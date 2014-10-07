@@ -5,7 +5,7 @@ $wordlist = array('Jefferson ', 'Lincoln ', 'Taft ', 'Kennedy ', 'Nixon ',
 'Wednesday ', 'Thursday ', 'Friday ', 'Saturday ', 'Oslo ', 'Paris ', 'Carthage ', 'MickeyMouse ', 'DonaldDuck ',
 'Goofy ');
 
-$symbols = array('! ', '@ ', '% ', '& ', '* ', '+ ', '= ');
+$symbols = array('! ', '@ ', '% ', '& ', '* ', '+ ', '= ', '_ ', "- ");
 
 $random_index = array_rand($symbols, 1);
 
