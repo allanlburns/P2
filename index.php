@@ -21,11 +21,11 @@
 			max='8' step='1' value='4'><br>
 
 		
-		<p>Use a symbol?</p><br>
+		<p>Use a symbol?</p>
 
 		<input type ='checkbox' name='symbol' value='yes' /><br>
 
-		<p>Include a number?</p><br>
+		<p>Include a number?</p>
 
 		<input type ='checkbox' name='number' value='yes' /><br><br>
 		
@@ -41,13 +41,11 @@
 
 		}
 
-		if ($_POST['symbol'] = 'yes') {
+		if ($_POST['symbol'] == 'yes') {
 
-		echo array_rand($symbols);
-
+		echo $symbols[$random_index];
+		
 		}
-
-
 
 		?>
 

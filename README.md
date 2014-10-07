@@ -9,3 +9,5 @@ Websites consulted:
 http://www.developphp.com/page.php?id=477 (this one helped with the breakthrough)
 
 http://myphpform.com/php-form-tutorial.php (this tutorial helped me finally get the form data working/saved my life)
+
+http://www.otakunozoku.com/php-array_rand-function-definition/(helped me figure out bug with checkbox)
