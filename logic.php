@@ -2,30 +2,27 @@
 
 $wordlist = array('Jefferson', 'Lincoln', 'Taft', 'Kennedy', 'Nixon', 
 'blue', 'red', 'yellow', 'green', 'black', 'white', 'purple', 'Sunday', 'Monday', 'Tuesday',
-'Wednesday', 'Thursday', 'Friday', 'Saturday', 'lamda', 'iota', 'sigma', 'alpha',
-'beta', 'gamma');
-
-
-//$_POST
-
-//$length = 'length';
-
-$password = array_rand($wordlist, 6);
-
- //moving foreach loop to index.php eliminated password from top of page but also from anywhere on the page.
-
-
-
-
-
-
-
-
-
+'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Oslo', 'Paris', 'Carthage', 'Mickey', 'Donald',
+'Goofy');
 
 $symbols = array('!', '@', '%', '&', '*', '+', '=');
 
 $number = array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9);
+
+
+
+
+$password = array_rand($wordlist, $_POST['length']);
+
+/*if ('symbol' = 'yes') {
+
+$password = array_rand($symbols);
+
+}*/
+
+ 
+
+
 
 	
 	
