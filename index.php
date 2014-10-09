@@ -15,7 +15,7 @@
 
 		<form action='index.php' method='POST'>
 
-		<p>Number of words></p><br>
+		<p>Number of words:</p><br>
 
 		<input type ='number' name='length' min= '4'
 			max='8' step='1' value='4'><br>
