@@ -1,7 +1,7 @@
 <?php
 
 $wordlist = array('Jefferson ', 'sensatonal ', 'Lincoln ', 'jam ', 'Taft ', 'Kennedy ', 'Nixon ', 'spaz ', 
-'blue ', 'impact', 'red ', 'best ', 'yellow ', 'splash ', 'green ', 'fly ', 'fresh ', 'purple ', 'Sunday ', 'Monday ', 'Tuesday ',
+'blue ', 'impact ', 'red ', 'best ', 'yellow ', 'splash ', 'green ', 'fly ', 'fresh ', 'purple ', 'Sunday ', 'Monday ', 'Tuesday ',
 'Wednesday ', 'kryptonite ', 'Thursday ', 'Friday ', 'funky ', 'Saturday ', 'Oslo ', 'Paris ', 'Carthage ', 'Mickey ', 'Donald ',
 'Goofy ');
 
