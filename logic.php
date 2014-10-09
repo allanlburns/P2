@@ -1,8 +1,8 @@
 <?php
 
-$wordlist = array('Jefferson ', 'Lincoln ', 'Taft ', 'Kennedy ', 'Nixon ', 
-'blue ', 'red ', 'yellow ', 'green ', 'black ', 'white ', 'purple ', 'Sunday ', 'Monday ', 'Tuesday ',
-'Wednesday ', 'Thursday ', 'Friday ', 'Saturday ', 'Oslo ', 'Paris ', 'Carthage ', 'MickeyMouse ', 'DonaldDuck ',
+$wordlist = array('Jefferson ', 'sensatonal ', 'Lincoln ', 'jam ', 'Taft ', 'Kennedy ', 'Nixon ', 'spaz ', 
+'blue ', 'impact', 'red ', 'best ', 'yellow ', 'splash ', 'green ', 'fly ', 'fresh ', 'purple ', 'Sunday ', 'Monday ', 'Tuesday ',
+'Wednesday ', 'kryptonite ', 'Thursday ', 'Friday ', 'funky ', 'Saturday ', 'Oslo ', 'Paris ', 'Carthage ', 'Mickey ', 'Donald ',
 'Goofy ');
 
 $symbols = array('! ', '@ ', '% ', '& ', '* ', '+ ', '= ', '_ ', "- ");

@@ -1,0 +1,151 @@
+
+<?php elseif ($_POST['symbol'] == no) {
+
+		echo "'";
+
+
+
+
+
+
+
+
+<?php echo $_GET['$length']; ?>
+
+		<?php if (isset($var)) {
+
+		 	echo $_GET['symbol']; }?>
+
+		<?php if (isset($var2)) {
+
+			echo $_GET['number']; }?>
+
+<pre><?php print_r($_GET); ?></pre>
+
+
+<?php echo $password; ?> <!--from index.php under "Your Password is:"
+
+
+
+
+
+
+index.php:
+
+
+<!DOCTYPE: html>
+<html>
+	<head>
+		<?php require 'logic.php'; ?>
+
+		<link type="text/css" rel= "stylesheet" href="stylesheet.css" 
+	
+		<title><index.php></title>
+	</head>
+
+	<body>
+		<h1>Password Generator!</h1>
+
+		<h2>Create your own xkcd-style password</h2>
+
+		<form action='logic.php' method='GET'>
+
+		<p>Number of words></p><br>
+
+		<input type ='number' name='$length' min= '4'
+			max='8' step='1' value='4'><br>
+
+		
+		<p>Use a symbol?</p><br>
+
+		<input type ='checkbox' name='symbol' value='yes'><br>
+
+		<p>Include a number?</p><br>
+
+		<input type ='checkbox' name='number' value='yes'><br><br>
+		
+		<input type ='submit' value='Create your password!'><br><br>
+
+		
+		Your password is:
+
+		
+		<?php foreach ($password as $key => $value) {
+
+		echo "$key" . $wordlist[$value];
+
+		}
+
+		?>
+
+
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+logic.php:
+
+
+<?php
+
+$wordlist = array('Jefferson', 'Lincoln', 'Taft', 'Kennedy', 'Nixon', 
+'blue', 'red', 'yellow', 'green', 'black', 'white', 'purple', 'Sunday', 'Monday', 'Tuesday',
+'Wednesday', 'Thursday', 'Friday', 'Saturday', 'lamda', 'iota', 'sigma', 'alpha',
+'beta', 'gamma');
+
+
+//$_POST
+
+//$length = 'length';
+
+$password = array_rand($wordlist, 6);
+
+ //moving foreach loop to index.php eliminated password from top of page but also from anywhere on the page.
+
+
+
+
+
+
+
+
+
+
+$symbols = array('!', '@', '%', '&', '*', '+', '=');
+
+$number = array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9);
+
+	
+	
+
+
+
+
+
+
+
+/*
+
+'numberofwords' = $length;
+
+//for($i = 0; $i < 'length'; $i++;) {
+
+	//array(rand)[wordlist];
+}
+
+*/
+
+//$password = array();
+
+
+
+
+?>
