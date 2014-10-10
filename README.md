@@ -1,7 +1,7 @@
 #README.md for Project 2
 
-[Live URL](P2.allanlburns.com)
-[Github](github.com/allanlburns/P2)
+[Live URL](http://P2.allanlburns.com "Live URL")
+[Github](http://github.com/allanlburns/P2 "Github")
 
 ###Building xkcd-style password generator. 
 
