@@ -15,4 +15,4 @@
 
 *http://www.otakunozoku.com/php-array_rand-function-definition/(helped me figure out bug with checkbox)
 
-*stackoverflow.com/questions/476426/submit-an-html-form-with-empty-checkboxes(helped me figure out the errors from unchecked checkboxes)
+*http://www.stackoverflow.com/questions/476426/submit-an-html-form-with-empty-checkboxes(helped me figure out the errors from unchecked checkboxes)
