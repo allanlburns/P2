@@ -9,10 +9,10 @@
 
 ##Websites consulted:
 
-*http://www.developphp.com/page.php?id=477 (this one helped with the breakthrough)
+*(http://www.developphp.com/page.php?id=477) This one helped with the breakthrough.
 
-*http://myphpform.com/php-form-tutorial.php (this tutorial helped me finally get the form data working/saved my life)
+*(http://myphpform.com/php-form-tutorial.php) This tutorial helped me finally get the form data working/saved my life.
 
-*http://www.otakunozoku.com/php-array_rand-function-definition/(helped me figure out bug with checkbox)
+*(http://www.otakunozoku.com/php-array_rand-function-definition/) Helped me figure out bug with checkbox.
 
-*http://www.stackoverflow.com/questions/476426/submit-an-html-form-with-empty-checkboxes(helped me figure out the errors from unchecked checkboxes)
+*(http://www.stackoverflow.com/questions/476426/submit-an-html-form-with-empty-checkboxes) Helped me figure out the errors from unchecked checkboxes.
