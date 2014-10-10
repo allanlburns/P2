@@ -1,15 +1,18 @@
-README.md for Project 2
+#README.md for Project 2
 
-Building xkcd-style password generator. 
+[Live URL](P2.allanlburns.com)
+[Github](github.com/allanlburns/P2)
 
-I'd like to attend the live demo for my section.
+###Building xkcd-style password generator. 
 
-Websites consulted:
+###I'd like to attend the live demo for my section.
 
-http://www.developphp.com/page.php?id=477 (this one helped with the breakthrough)
+##Websites consulted:
 
-http://myphpform.com/php-form-tutorial.php (this tutorial helped me finally get the form data working/saved my life)
+*http://www.developphp.com/page.php?id=477 (this one helped with the breakthrough)
 
-http://www.otakunozoku.com/php-array_rand-function-definition/(helped me figure out bug with checkbox)
+*http://myphpform.com/php-form-tutorial.php (this tutorial helped me finally get the form data working/saved my life)
 
-stackoverflow.com/questions/476426/submit-an-html-form-with-empty-checkboxes(helped me figure out the errors from unchecked checkboxes)
+*http://www.otakunozoku.com/php-array_rand-function-definition/(helped me figure out bug with checkbox)
+
+*stackoverflow.com/questions/476426/submit-an-html-form-with-empty-checkboxes(helped me figure out the errors from unchecked checkboxes)
